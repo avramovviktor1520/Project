@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #555;
+    text-rendering: optimizeLegibility;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none
+}
+
+.row {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    display: inline-block;
+    font-family: 'Merienda', cursive;
+    color: #000;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    color: #000;
+    margin: 20px 0 50px 0;
+}
+
+h3 {
+    font-family: 'Merienda', cursive;
+    color: #000;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    background-color: #ff6b6b;
+}
+
+.title div {
+    text-align: center;
+}
+
+.title img {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.meals-showcase {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(bookBgr.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000;
+    height: 60vh;
+    width: 100%;
+    padding: 200px 20px
+        
+}
+
+
+.meals-showcase div{
+    width: 25%;
+    margin: 0
+}
+
+.meals-showcase img {
+    transform: scale(.9);
+    opacity: 0.6;
+    width: 100%;
+    transition: 0.2s;
+    border-radius: 20px;
+    border: 2px solid hidden;
+    
+}
+
+.meals-showcase img:hover {
+    transform: scale(1.05);
+    border: 2px solid #ff6b6b;
+    opacity: 1;
+    
+}
+
+.recipe {
+    padding: 20px;
+    background-color: rgba(247, 195, 195, 0.25);
+}
+
+.recipe img {
+    display: inline-block;
+    width: 90%;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 1%;
+}
+
+li {
+    padding: 1%;
+    text-align: justify;
+    font-weight: 400;
+}
+
+ul li {border-bottom: 2px solid  #ff6b6b}
+ol li {line-height: 145%;}
+li span {
+    font-size: 120%;
+    color: #ff6b6b;
+    padding-right: 10px;
+    
+}
+
+i {
+    display: inline-block;
+    font-size: 150%;
+    padding-right: 10px;
+    color: #ff6b6b
+}
+
+
+footer {
+    background-color: #ff6b6b;
+    text-align: center;
+    color: #fff;
+    padding: 1%
+}
+
+
+footer a {
+    text-transform: uppercase;
+    margin: 0 10px;
+    border-bottom: 1px solid;
+    transition: 0.2s
+}
+
+footer a:hover {
+    color: #ff0000
+}
+
+
+
+
